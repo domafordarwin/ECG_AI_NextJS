@@ -1,0 +1,15 @@
+# FastAPI Backend Dependencies
+
+# 웹 프레임워크
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# 데이터 처리
+numpy==1.24.3
+scipy==1.11.4
+
+# 파일 업로드
+python-multipart==0.0.6
+
+# 선택 사항 (프로덕션)
+# gunicorn==21.2.0  # 프로덕션 서버
